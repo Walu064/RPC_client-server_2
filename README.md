@@ -17,3 +17,9 @@ git clone https://github.com/Walu064/RPC_client-server_2
 ```
 If everything works fine, you will see client PID on the server-side. Now you can insert every sign you want on the
 client-side (including white characters).
+
+If you want put some changes in the codes of server or client, after performing it use Makefile. Just write:
+```bash
+make
+```
+in terminal. Every single actualization of code must be preceded by compilation.
